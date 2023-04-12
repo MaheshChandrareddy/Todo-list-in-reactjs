@@ -1,93 +1,92 @@
-.MainCon{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.MainCon {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.SubCon{
-height: auto;
-width: 40%;
-border: 1px solid;
-border-radius: 10px;
+.SubCon {
+  height: auto;
+  width: 40%;
+  border: 1px solid;
+  border-radius: 10px;
 }
-.SubCon form{
-    width: 100%;
-    height: 20vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.SubCon form {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.formGroup > input{
-width: 150%;
-height: 5vh;
-border: none;
-border-bottom: 1px solid;
+.formGroup > input {
+  width: 150%;
+  height: 5vh;
+  border: none;
+  border-bottom: 1px solid;
 }
-.formGroup>button{
-    padding: 7px 25px;
-    border-radius: 10px;
-    background-color: white;
-    cursor: pointer;
-    border: none;
-    box-shadow: 0px 0px 4px 0px ;
+.formGroup > button {
+  padding: 7px 25px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 0px 4px 0px;
 }
-.formGroup>button:hover{
-       box-shadow: 0px 0px 2px 0px #fbfbfb;
-    background-color:rgb(14, 97, 124);
-    color: white;
+.formGroup > button:hover {
+  box-shadow: 0px 0px 2px 0px #fbfbfb;
+  background-color: rgb(14, 97, 124);
+  color: white;
 }
-.ListContainer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.ListContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-.ListData{
-    list-style: none;
-    width: 60%;
+.ListData {
+  list-style: none;
+  width: 60%;
 }
-.ListData aside div{
-    padding: 10px;
-     overflow: auto;
+.ListData aside div {
+  padding: 10px;
+  overflow: auto;
   white-space: nowrap;
-    width: 100%;
-    display: flex;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 .ListData aside {
-    box-shadow: 0px 0px 3px 0px #b0b0b0;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  box-shadow: 0px 0px 3px 0px #b0b0b0;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-.ListData aside p{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.ListData aside p {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-.EditGroup input{
-    width: 150%;
-height: 5vh;
-border: none;
-border-bottom: 1px solid;
+.EditGroup input {
+  width: 150%;
+  height: 5vh;
+  border: none;
+  border-bottom: 1px solid;
 }
-.btn{
-    padding: 4px 10px;
-    border: none;
-    cursor: pointer;
-    background-color: rgb(14, 97, 124);
-    color: white;
-    box-shadow: 0px 0px 4px 0px #b6b6b6;
-    border-radius: 10px;
-    margin-right: 20px;
+.btn {
+  padding: 4px 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(14, 97, 124);
+  color: white;
+  box-shadow: 0px 0px 4px 0px #b6b6b6;
+  border-radius: 10px;
+  margin-right: 20px;
 }
-.btn:hover{
-    color: black;
-    box-shadow: 0px 0px 2px 0px #484848;
-    background-color: rgb(233, 233, 233);
-
+.btn:hover {
+  color: black;
+  box-shadow: 0px 0px 2px 0px #484848;
+  background-color: rgb(233, 233, 233);
 }
